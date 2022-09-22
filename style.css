@@ -4,26 +4,32 @@
     padding: 0%;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #titolo{
     text-align: center;
-    color: rgb(226, 43, 202);
     font-size: xx-large;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-weight: 800;
+    color: rgb(229, 49, 112);
 }
 
 #intro{
     margin-left: 300px;
     margin-right: 300px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 main {
     text-align: center;
-    border: 1px solid red;
     margin-top: 30px;
 }
 
 .container{
-    border: 1px solid blue;
     width: 65%;
     margin: 0 auto;
 }
@@ -39,6 +45,7 @@ main {
     box-shadow: -1px -1px 15px 1px #D1D1D1;
     background-color: rgb(15, 14, 23);
     color: white;
+    margin-bottom: 45px;
 }
 
 .tessera img {
@@ -54,11 +61,17 @@ main {
 
   a{
     color: rgb(16, 175, 227);
+    text-decoration: none;
   }
 
   .tessera div{
-    border: 1px solid yellow;
     float: left;
+  }
+
+  .tessera h2 {
+    text-transform: uppercase;
+    font-size: initial;
+    font-weight: 800;
   }
 
   .tessera span {
